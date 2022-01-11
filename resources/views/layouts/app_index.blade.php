@@ -61,7 +61,7 @@
             <div class="flex justify-center">
 
                 <header class="text-white h-12 py-4 h-auto">
-                    @include('layouts.leftsidenavigation')
+                    <x-nav-link-for-left-side />
                 </header>
 
                 <main role="main">

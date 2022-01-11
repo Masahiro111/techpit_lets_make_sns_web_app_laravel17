@@ -11,32 +11,35 @@ class ArticleController extends Controller
         $articles = [
             (object) [
                 'id' => 1,
-                'title' => 'タイトル1',
-                'body' => '本文1',
+                // 'title' => 'タイトル1',
+                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque laborum quasi repellendus dicta iste voluptas nesciunt, autem quas placeat velit. Dicta voluptas cum, rerum magnam minima repellendus neque voluptatem voluptatibus.',
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 1,
                     'name' => 'ユーザー名1',
+                    'at_name' => 'hello_my_titter',
                 ],
             ],
             (object) [
                 'id' => 2,
-                'title' => 'タイトル2',
-                'body' => '本文2',
+                // 'title' => 'タイトル2',
+                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque laborum quasi repellendus dicta iste voluptas nesciunt, autem quas placeat velit. Dicta voluptas cum, rerum magnam minima repellendus neque voluptatem voluptatibus.',
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 2,
                     'name' => 'ユーザー名2',
+                    'at_name' => 'hello_my_titter2',
                 ],
             ],
             (object) [
                 'id' => 3,
-                'title' => 'タイトル3',
-                'body' => '本文3',
+                // 'title' => 'タイトル3',
+                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque laborum quasi repellendus dicta iste voluptas nesciunt, autem quas placeat velit. Dicta voluptas cum, rerum magnam minima repellendus neque voluptatem voluptatibus.',
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 3,
                     'name' => 'ユーザー名3',
+                    'at_name' => 'hello_my_titter',
                 ],
             ],
         ];

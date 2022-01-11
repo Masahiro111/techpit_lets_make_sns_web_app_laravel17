@@ -19,7 +19,6 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'auth'], function () {
-
     Route::get('/article', [ArticleController::class, 'index'])->name('article.index');
 });
 
